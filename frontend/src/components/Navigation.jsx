@@ -48,7 +48,7 @@ export default function Navigation() {
       {isMobileMenuOpen && (
         <ul className="md:hidden flex flex-col items-center space-y-4 text-lg bg-purple-600 text-gray-200 py-6 shadow-lg">
           <li className="hover:text-white hover:underline transition duration-300 ease-in-out cursor-pointer">
-            <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
+            <Link to="/" onClick={() => setIsMobileMenuOpen(false)}>HOME</Link>
           </li>
           <li className="hover:text-white hover:underline transition duration-300 ease-in-out cursor-pointer">
             <Link to="/about" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
